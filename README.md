@@ -5,7 +5,7 @@
 ### Purpose
 * Port [dlib](http://dlib.net/) to Android platform
 
-* You can build it to dynamic or static library for Android. You can also build dlib's sample to Android executable file.
+* You can build it into a dynamic or static library for Android. You can also build dlib's sample to an Android executable file.
 
 * You can refer to [dlib-android-app](https://github.com/tzutalin/dlib-android-app) which demonstrates dlib-android features
 
@@ -29,7 +29,7 @@
 
 * Install Android Debug Bride (ADB). You can download it via [Android SDK Manager](https://developer.android.com/sdk/installing/index.html) or $ sudo apt-get install android-tools-adb
 
-* Prepare an Android device for test
+* Prepare an Android device for the test
 
 ### Build JNI code and shared library for Android application
 * You can change the compiler architecture in dlib-android/jni/Application.mk
@@ -41,7 +41,7 @@
     $ python build.py
 ```
 
-Alternative way to build native code and copy to the Android Studio's project manually:
+An alternative way to build native code and copy it to the Android Studio's project manually:
 ```sh
     $ cd [dlib-android]
     $ ndk-build -j 2
@@ -66,7 +66,7 @@ Alternative way to build native code and copy to the Android Studio's project ma
 ```
 
 ### Do you want to contribute
- * If you have any improvement or you've found any bug, send a pull request with the code.
+ * If you have any improvements or you've found any bugs, send a pull request with the code.
  * Give me a star on this repository
  * <a href='https://ko-fi.com/A4263TV2' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
